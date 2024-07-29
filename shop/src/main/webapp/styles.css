@@ -48,21 +48,27 @@ body {
      font-weight: bold;
      background-color: #f1f1f1;
      padding: 10px 0;
+
  }
 
-/* Estilos para las filas de datos */
+#editForm{
+    width: 25%;
+}
+
 .user {
-    border-bottom: 1px solid #ddd;
+    border: 1px solid #000000;
     padding: 10px 0;
 }
 
-/* Estilos para las columnas */
+
 .user .col {
-    text-align: left;
+    text-align: center;
     padding: 0 15px;
+    display: inline-flex;
+    gap: 50px;
 }
 
-/* Estilos para la fila completa */
+
 .row {
     display: flex;
     align-items: center;

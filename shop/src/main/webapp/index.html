@@ -65,6 +65,41 @@
     <button type="button" class="btn btn-outline-primary" onclick="back()">BACK</button>
 </div>
 
+<div class="content-wrapper" id="editForm" style="display: none;">
+    <h1>Edit User</h1>
+    <br><br>
+    <div id="edit_container">
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" id="edit_id" placeholder="ID:" readonly>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" id="edit_name" placeholder="Name:">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" id="edit_email" placeholder="Email:">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="password" class="form-control" id="edit_password" placeholder="Password:">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <input type="text" class="form-control" id="edit_phone" placeholder="Phone:">
+            </div>
+        </div>
+        <button class="btn btn-primary w-100" onclick="doPut()">Update User</button>
+        <button type="button" class="btn btn-outline-primary" onclick="back()">BACK TO LOGIN</button>
+    </div>
+</div>
+
+
 <script src="script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
