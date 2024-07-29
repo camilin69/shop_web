@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 800px;
+    margin: 0;
+}
+.content-wrapper {
+    padding-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+#login_container, #register_container{
+    width: 25%;
+    padding-top: 5%;
+    max-width: 400px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+#logged{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+
+}
+
+.error {
+    display: none;
+    color: red;
+    opacity: 1;
+    transition: opacity 1s ease-out;
+}
+
+.hidden {
+    display: none;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+.user-header {
+     font-weight: bold;
+     background-color: #f1f1f1;
+     padding: 10px 0;
+ }
+
+/* Estilos para las filas de datos */
+.user {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+/* Estilos para las columnas */
+.user .col {
+    text-align: left;
+    padding: 0 15px;
+}
+
+/* Estilos para la fila completa */
+.row {
+    display: flex;
+    align-items: center;
+}
+
